@@ -1,7 +1,66 @@
 /* Settings */
 :root {
-  --main-color: #;
+  --main-color: #00a6f4;
   --white-color: #fff;
   --black-color: #000;
   --mobile-height: calc(var(--var,1vh) * 100);
 }
+
+body {background-color: #f8f8f8;}
+
+/* 게시판 { */
+.board {}
+.board_top {display: flex; align-items: flex-end; justify-content: space-between; padding-bottom: 20px;}
+.board_cnt_wrap {}
+.board_cnt {font-weight: 400; font-size: 18px; color: var(--black-color);}
+.board_cnt span {font-weight: 700; color: var(--main-color);}
+.board_srch_wrap {}
+.board_srch_bar {display: flex; align-items: center; justify-content: space-between; gap: 0 13px;}
+.board_srch_bar select {width: 124px; border: none; border-bottom: 1px solid #ccc; background: url('/source/img/icon-select.png') no-repeat center right 10px; padding: 18px 10px; font-weight: 400; font-size: 16px; color: var(--black-color);}
+.board_srch_input_wrap {width: 338px; border-bottom: 1px solid #ccc; position: relative;}
+.board_srch_input_wrap input[type=text] {font-weight: 400; font-size: 16px; color: var(--black-color); border: none; padding: 18px 26px 18px 10px; outline: none; width: 100%;}
+.board_srch_input_wrap [type=submit] {border: none; background-color: transparent; position: absolute; top: 50%; right: 10px; transform: translateY(-50%);}
+
+.board_contents {}
+.list {}
+.list_head {display: flex; width: 100%; border-radius: 10px; background-color: #333; height: 60px; align-items: center;}
+.list_head .th {font-weight: 400; font-size: 18px; color: var(--white-color); position: relative; text-align: center;}
+.list_head .th:last-child::after {display: none;}
+.list_head .th::after {content: ''; width: 1px; height: 17px; background-color: rgba(255,255,255,0.3); position: absolute; top: 50%; right: 0; transform: translateY(-50%);}
+
+.list .td_num {width: 102px;}
+.list .td_subj {width: calc(100% - 543px);}
+.list .td_depart {width: 178px;}
+.list .td_hits {width: 128px;}
+.list .td_file {width: 135px;}
+
+.list_body {}
+.list_body_item {display: flex; align-items: center; transition: .3s; border-bottom: 1px solid #dedede; padding: 30.61px 0;}
+.list_body_item .td {text-align: center;}
+.list_body_item .td.td_num {font-weight: 700; font-size: 20px; color: #d9d9d9;}
+.list_body_item .td.td_subj {text-align: left; padding: 0 24px;}
+.list_body_item .td.td_subj .td_date {font-weight: 500; font-size: 16px; color: #bdbdbd; padding-bottom: 8px; transition: .3s;}
+.list_body_item .td.td_subj .td_title {font-weight: 400; font-size: 18px; color: var(--black-color); transition: .3s;}
+.list_body_item .td.td_depart {font-weight: 300; font-size: 18px; color: #666; transition: .3s;}
+.list_body_item .td.td_hits {font-weight: 300; font-size: 18px; color: #666; transition: .3s;}
+.list_body_item .td.td_file {text-align: center;}
+.list_body_item .td.td_file .icon {display: flex; width: 46px; height: 46px; border: 1px solid #d9d9d9; align-items: center; justify-content: center; border-radius: 50%; margin: 0 auto; transition: .3s;}
+.list_body_item .td.td_file .td_file_icon {}
+.list_body_item .td.td_file .td_baro_icon {width: 32px; height: 32px; border: 2px solid var(--main-color); display: none;}
+
+.list_body_item:hover {background-color: #fff; border-radius: 10px; border-bottom: 1px solid transparent; box-shadow: 2px 0 12px rgba(0,0,0,0.04); margin-top: -1px;}
+.list_body_item:hover .td_subj .td_date {color: var(--main-color);}
+.list_body_item:hover .td_subj .td_title {color: var(--main-color);}
+.list_body_item:hover .td_depart {color: var(--main-color);}
+.list_body_item:hover .td_hits {color: var(--main-color);}
+.list_body_item:hover .icon.td_file_icon {display: none;}
+.list_body_item:hover .icon.td_baro_icon {display: flex;}
+
+.pagination {padding-top: 40px;}
+.pagi_ul {display: flex; align-items: center; justify-content: center;}
+.pagi_ul li {padding: 0 13px;}
+.pagi_ul li a {display: block; font-weight: 400; font-size: 18px; color: #bdbdbd; transition: .3s;}
+.pagi_ul li a:hover {color: var(--black-color); font-weight: 500;}
+.pagi_ul li a.active {color: var(--black-color); font-weight: 500;}
+.pagi_ul li .pg_prev,.pagi_ul li .pg_next {display: flex; width: 32px; height: 32px; border-radius: 50%; align-items: center; justify-content: center; border: 1px solid var(--black-color);}
+/* } 게시판 */

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="kobis">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>안면도개발</title>
+
+  <!-- JS 파일 연결 -->
+  <script src="/source/plugin/jquery/jquery-1.12.4.min.js"></script>
+  <script src="/source/plugin/jquery/jquery-migrate-1.4.1.min.js"></script>
+  <!-- Plug-in, Library { -->
+  <script src="/source/plugin/prefixfree.min.js" defer></script>
+  <script src="/source/plugin/scrollbar/jquery.mCustomScrollbar.js" defer></script>
+  <script src="/source/plugin/jquery.matchHeight.js" defer></script>
+  <script src="/source/plugin/aos/aos.js" defer></script>
+  <script src="/source/plugin/scrollbar/lenis.js" defer></script>
+  <script src="/source/plugin/niceselect/jquery.nice-select.min.js" defer></script>
+  <script src="/source/plugin/swiper/swiper-bundle.min.js" defer></script>
+  <!-- } Plug-in, Library -->
+  <script src="/source/js/functions.js" defer></script>
+  <script src="/source/js/normal.js" defer></script>
+
+  <!-- CSS 파일 연결 -->
+  <!-- Plug-in, Library { -->
+  <link rel="stylesheet" href="/source/plugin/aos/aos.css">
+  <link rel="stylesheet" href="/source/plugin/scrollbar/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="/source/plugin/niceselect/nice-select.css">
+  <link rel="stylesheet" href="/source/plugin/swiper/swiper-bundle.min.css">
+  <!-- } Plug-in, Library -->
+  <link rel="stylesheet" href="/source/css/fonts.css">
+  <link rel="stylesheet" href="/source/css/common.css">
+  <link rel="stylesheet" href="/source/css/normal.css">
+  <link rel="stylesheet" href="/source/css/responsive.css">
+
+</head>
+<body>
+
+  <div class="section">
+    <div class="wrapper">
+      <!-- 텍스트 게시판 { -->
+      <div class="board">
+        <div class="board_top">
+          <div class="board_cnt_wrap">
+            <p class="board_cnt">총 <span>100</span></p>
+          </div>
+          <div class="board_srch_wrap">
+            <form action="">
+              <div class="board_srch_bar">
+                <select name="" id="">
+                  <option value="">전체</option>
+                  <option value="">제목</option>
+                  <option value="">담당부서</option>
+                </select>
+                <div class="board_srch_input_wrap">
+                  <input type="text" placeholder="내용을 입력하세요.">
+                  <button type="submit"><img src="/source/img/icon-srch.png" alt="검색하기"></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="board_contents">
+          <div class="list">
+            <!-- List Head { -->
+            <div class="list_head">
+              <div class="th td_num">번호</div>
+              <div class="th td_subj">제목</div>
+              <div class="th td_depart">담당부서</div>
+              <div class="th td_hits">조회</div>
+              <div class="th td_file">첨부</div>
+            </div>
+            <!-- } List Head -->
+            <!-- List Body { -->
+            <div class="list_body">
+              <!-- loop { -->
+              <a href="" class="list_body_item">
+                <div class="td td_num">99</div>
+                <div class="td td_subj">
+                  <p class="td_date">2019.02.11</p>
+                  <p class="td_title text_row1">게시판 타이틀 영역입니다. 게시판 타이틀 영역입니다. 게시판 타이틀 영역입니다.</p>
+                </div>
+                <div class="td td_depart">안면도개발팀</div>
+                <div class="td td_hits">40</div>
+                <div class="td td_file">
+                  <!-- 첨부 파일이 있을 떄 { -->
+                  <div class="icon td_file_icon">
+                    <img src="/source/img/icon-file.png" alt="첨부파일 있음">
+                  </div>
+                  <!-- } 첨부 파일이 있을 떄 -->
+                  <div class="icon td_baro_icon">
+                    <img src="/source/img/icon-baro.png" alt="바로가기">
+                  </div>
+                </div>
+              </a>
+              <!-- } loop -->
+              <a href="" class="list_body_item">
+                <div class="td td_num">99</div>
+                <div class="td td_subj">
+                  <p class="td_date">2019.02.11</p>
+                  <p class="td_title text_row1">게시판 타이틀 영역입니다. 게시판 타이틀 영역입니다. 게시판 타이틀 영역입니다.</p>
+                </div>
+                <div class="td td_depart">안면도개발팀</div>
+                <div class="td td_hits">40</div>
+                <div class="td td_file">
+                  <!-- 첨부 파일이 있을 떄 { -->
+                  <div class="icon td_file_icon">
+                    <img src="/source/img/icon-file.png" alt="첨부파일 있음">
+                  </div>
+                  <!-- } 첨부 파일이 있을 떄 -->
+                  <div class="icon td_baro_icon">
+                    <img src="/source/img/icon-baro.png" alt="바로가기">
+                  </div>
+                </div>
+              </a>
+              <a href="" class="list_body_item">
+                <div class="td td_num">99</div>
+                <div class="td td_subj">
+                  <p class="td_date">2019.02.11</p>
+                  <p class="td_title text_row1">게시판 타이틀 영역입니다. 게시판 타이틀 영역입니다. 게시판 타이틀 영역입니다.</p>
+                </div>
+                <div class="td td_depart">안면도개발팀</div>
+                <div class="td td_hits">40</div>
+                <div class="td td_file">
+                  <div class="icon td_baro_icon">
+                    <img src="/source/img/icon-baro.png" alt="바로가기">
+                  </div>
+                </div>
+              </a>
+              <a href="" class="list_body_item">
+                <div class="td td_num">99</div>
+                <div class="td td_subj">
+                  <p class="td_date">2019.02.11</p>
+                  <p class="td_title text_row1">게시판 타이틀 영역입니다. 게시판 타이틀 영역입니다. 게시판 타이틀 영역입니다.</p>
+                </div>
+                <div class="td td_depart">안면도개발팀</div>
+                <div class="td td_hits">40</div>
+                <div class="td td_file">
+                  <div class="icon td_baro_icon">
+                    <img src="/source/img/icon-baro.png" alt="바로가기">
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- } List Body  -->
+          </div>
+          <div class="pagination">
+            <ul class="pagi_ul">
+              <li><a href="" class="pg_prev"><img src="/source/img/pg-prev.png" alt="이전 페이지"></a></li>
+              <li><a href="" class="pg_btn active">01</a></li>
+              <li><a href="" class="pg_btn">02</a></li>
+              <li><a href="" class="pg_btn">03</a></li>
+              <li><a href="" class="pg_btn">04</a></li>
+              <li><a href="" class="pg_btn">05</a></li>
+              <li><a href="" class="pg_next"><img src="/source/img/pg-next.png" alt="다음 페이지"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- } 텍스트 게시판 -->
+    </div>
+  </div>
+  
+</body>
+</html>
