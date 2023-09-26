@@ -1,4 +1,179 @@
-@media screen and (max-width:1290px){} /*@media End*/
-@media screen and (max-width:1023px){} /*@media End*/
-@media screen and (max-width:767px){} /*@media End*/
-@media screen and (max-width:480px){} /*@media End*/
+@media screen and (max-width:1290px){
+  .nt-wrapper {padding-left: 40px; padding-right: 40px;}
+
+  .nt-cm_top .nt-logo {left: 40px;}
+
+  .nt-cm_cont .nt-txt1 {font-size: 60px;}
+  .nt-cm_cont .nt-refer-list {padding: 0 20px;}
+  .nt-cm_cont .nt-refer-list .name {font-size: 16px;}
+  .nt-cm_cont .nt-refer-list.nt-list1 {background-position: center right 20px; background-size: 28px auto;}
+  .nt-cm_cont .nt-refer-list.nt-list2 {background-position: center right 20px; background-size: 26px auto;}
+  .nt-cm_cont .nt-refer-list.nt-list3 {background-position: center right 20px; background-size: 23px auto;}
+  .nt-refer-over-btn {font-size: 16px;}
+
+  .nt-tab-btn {font-size: 18px;}
+
+  .nt-cont_sec-btit {font-size: 36px;}
+  .nt-cont_sec-goals-txt {font-size: 20px;}
+
+  .nt-direction_lt {width: 400px; padding-right: 20px;}
+  .nt-direction_rt {width: calc(100% - 400px);}
+  .nt-direction_pnavi-txt {font-size: 16px;}
+  .nt-direction_pnavi-txt br {display: none;}
+  .nt-direction-img-slider-item {height: 397px;}
+
+  .nt-promotion_rt {padding-left: 20px;}
+  .nt-promotion-map {padding-bottom: 116%;}
+
+  .nt-activities-list_top {padding-right: 50px;}
+  .nt-activities-icon {width: 45px;}
+  .nt-activities-tit {font-size: 22px;}
+  .nt-activities-tit-expl {font-size: 14px;}
+  .nt-activities-txt {font-size: 14px;}
+  .nt-activities-txt-expl > li {font-size: 14px;}
+
+  .nt-cm-contact {font-size: 16px;}
+
+  /* 게시판 */
+  .td_hits, .td_file {display: none;}
+  .list .td_subj {width: calc(100% - 280px);}
+  .td_depart::after {display: none;}
+  .list_body_item {padding: 20px 0;}
+  .list .td_depart {word-break: break-word; padding: 0 10px;}
+}
+
+
+@media screen and (max-width:1023px){
+  .nt-wrapper {padding-left: 30px; padding-right: 30px;}
+
+  .nt-cm_top .nt-logo {top: 20px; left: 30px;}
+
+  .nt-cm_cont {bottom: 30px;}
+  .nt-cm_cont .nt-object {top: -30px;}
+  .nt-cm_cont .nt-txt1 {font-size: 42px;}
+  .nt-cm_cont .nt-txt2 {font-size: 18px;}
+  .nt-cm_cont .nt-refer {flex-flow: column wrap; margin-top: 30px;}
+  .nt-cm_cont .nt-refer-list {width: 100%; height: 60px; line-height: 58px;}
+
+  .nt-tab_in {gap: 10px;}
+  .nt-tab-btn {width: 200px;}
+
+  .nt-cont_sec-btit {font-size: 30px;}
+
+  .nt-cont_sec-goals-txt {font-size: 18px;}
+
+  .nt-direction {padding: 80px 0 100px;}
+  .nt-direction_lt {width: 350px;}
+  .nt-direction_rt {width: calc(100% - 350px);}
+  .nt-direction_pnavi-symbol {margin-right: 5px;}
+  .nt-direction_pnavi-txt {padding: 15px 7px; font-size: 15px;}
+  .nt-direction-img-slider-item {height: 362px;}
+
+  .nt-promotion {padding: 80px 0 100px;}
+
+  .nt-activities {padding: 80px 0 100px;}
+  .nt-activities-list.nt-wid3 {width: calc(50% - 15px);}
+  .nt-activities-list:last-child {width: 100%;}
+  .nt-activities-tit {font-size: 20px;}
+
+  /* 게시판 */
+  .list_body_item .td.td_subj .td_title, .list_head .th, .list_body_item .td.td_depart {font-size: 16px;}
+  .list_body_item .td.td_num {font-size: 18px;}
+  .list_body_item .td.td_subj .td_date {font-size: 14px;}
+}
+
+@media screen and (max-width:767px){
+  .nt-wrapper {padding-left: 20px; padding-right: 20px;}
+
+  .nt-cm_cont .nt-object {top: -50px; width: 120px; height: 116px;}
+  .nt-cm_cont .nt-txt1 {font-size: 30px;}
+  .nt-cm_cont .nt-txt2 {font-size: 16px;}
+  .nt-cm_cont .nt-txt2 br {display: none;}
+  .nt-cm_cont .nt-refer {margin-top: 20px;}
+  .nt-cm_cont .nt-refer-list {padding: 0 10px;}
+  .nt-cm_cont .nt-refer-list.nt-list1 {background-position: center right 10px; background-size: 20px auto;}
+  .nt-cm_cont .nt-refer-list.nt-list2 {background-position: center right 10px; background-size: 18px auto;}
+  .nt-cm_cont .nt-refer-list.nt-list3 {background-position: center right 10px; background-size: 18px auto;}
+  .nt-cm_cont .nt-refer-list .name {font-size: 14px;}
+  .nt-refer-over-btn {font-size: 14px;}
+
+  .nt-tab {margin: 40px auto 50px;}
+  .nt-tab_in {gap: 6px;}
+  .nt-tab-btn {width: calc(33.333% - 5px); height: 50px; line-height: 50px; font-size: 16px;}
+  .nt-tab-btn.act {line-height: 48px;}
+
+  .nt-cont_sec-stit {font-size: 14px;}
+  .nt-cont_sec-btit {font-size: 24px;}
+
+  .nt-goals .nt-cont_sec_dt {margin-top: 10px; padding: 20px 20px; border-radius: 70px;}
+  .nt-cont_sec-goals-txt {font-size: 14px;}
+  .nt-cont_sec-goals-txt br {display: none;}
+
+  .nt-direction {padding: 60px 0 50px;}
+  .nt-direction_pnavi:after {display: none;}
+  .nt-direction .nt-cont_sec_dt {display: block;}
+  .nt-direction_lt {width: 100%; padding-right: 0;}
+  .nt-direction_rt {width: 100%; margin-top: 10px;}
+  .nt-direction_pnavi-list {display: none; position: relative;}
+  .nt-direction_pnavi-list.act {display: block;}
+  .nt-direction_pnavi-symbol {position: absolute; top: 0; left: 50%; z-index: 5; width: 40px; height: 40px; line-height: 38px; margin-left: -20px; margin-top: -20px;}
+  .nt-direction_pnavi-symbol span {font-size: 14px;}
+  .nt-direction_pnavi-symbol.symbol1 {border-radius: 50%; line-height: 38px; transform: none;}
+  .nt-direction_pnavi-symbol.symbol1 span {padding-top: 0; line-height: inherit; transform: none;}
+  .nt-direction_pnavi-txt {display: block; width: 100%; padding: 30px 10px 10px; text-align: center;}
+  .nt-direction_pnavi-txt:after {display: none !important;}
+  .nt-direction-img-slider {border-radius: 10px;}
+  .nt-direction-img-slider-item {height: 0; padding-bottom: 60%;}
+
+  .nt-promotion {padding: 50px 0;}
+  .nt-promotion .nt-cont_sec_dt {display: block; margin-top: 20px;}
+  .nt-promotion_lt {width: 100%;}
+  .nt-promotion_rt {width: 100%; padding-left: 0; margin-top: 15px;}
+  .nt-promotion-video {border-radius: 15px;}
+  .nt-promotion-map {border-radius: 15px;}
+  .nt-promotion-map-enlarge {width: 100%; border-radius: 0; font-size: 14px; text-align: center;}
+  .nt-promotion-map-enlarge img {width: 14px; margin: -2px 3px 0 0;}
+
+  .nt-activities {padding: 50px 0;}
+  .nt-activities_wrap {flex-flow: column wrap; gap: 15px;}
+  .nt-activities-list {width: 100% !important; padding: 20px; border-radius: 15px;}
+  .nt-activities-tit {font-size: 18px;}
+
+  .nt-cm_ft_wrap {display: block;}
+  .nt-cm-copy {font-size: 12px;}
+  .nt-cm-contact {margin-top: 20px; font-size: 12px;}
+
+  /* 게시판 */
+  .list_head {height: 40px;}
+  .td_num {display: none;}
+  .list_body_item {padding: 15px 0;}
+  .list .td_subj {width: calc(100% - 140px);}
+  .list .td_depart {width: 140px;}
+  .board_top {flex-direction: column-reverse; gap: 20px 0; padding-bottom: 7px;}
+  .board_srch_wrap {width: 100%;}
+  .board_srch_input_wrap {width: calc(100% - 137px);}
+  .board_srch_bar select, .board_srch_input_wrap input[type=text] {padding: 10px;}
+  .board_cnt_wrap {width: 100%;}
+  .board_cnt {font-size: 16px;}
+}
+
+@media screen and (max-width:480px){
+  /* 게시판 */
+  .list {border-top: 2px solid #333;}
+  .list_head {display: none;}
+  .list_body_item {flex-direction: column; align-items: flex-start; padding: 10px 0;}
+  .list_body_item .td.td_depart, .list_body_item .td.td_subj {width: 100%; padding: 0; text-align: left;}
+  .list_body_item .td.td_depart {padding-top: 4px; font-size: 14px;}
+  .list_body_item .td.td_subj .td_date {padding-bottom: 4px;}
+  .board_srch_bar {gap: 0 3vw;}
+  .board_srch_bar select, .board_srch_input_wrap input[type=text] {padding: 7px 5px; font-size: 14px;}
+  .board_srch_bar select {width: 100px; background-size: 10px; background-position: center right 5px;}
+  .board_srch_input_wrap {width: calc(100% - 100px - 3vw);}
+  .board_srch_input_wrap [type=submit] {width: auto; height: 20px;}
+  .board_srch_input_wrap [type=submit] img {width: 13px;}
+  .list_body_item .td.td_subj .td_title {font-size: 14px;}
+  .list_body_item .td.td_subj .td_date, .list_body_item .td.td_depart {font-size: 13px;}
+  .pagination {padding-top: 20px;}
+  .pagi_ul li a {font-size: 14px;}
+  .board_cnt {font-size: 14px;}
+}
