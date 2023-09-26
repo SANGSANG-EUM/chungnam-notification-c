@@ -132,7 +132,7 @@ body {background-color: #f8f8f8;}
 .board_srch_bar {display: flex; align-items: center; justify-content: space-between; gap: 0 13px;}
 .board_srch_bar select {width: 124px; border: none; border-bottom: 1px solid #ccc; background: url('/source/img/icon-select.png') no-repeat center right 10px; padding: 18px 10px; font-weight: 400; font-size: 16px; color: var(--black-color);}
 .board_srch_input_wrap {width: 338px; border-bottom: 1px solid #ccc; position: relative;}
-.board_srch_input_wrap input[type=text] {font-weight: 400; font-size: 16px; color: var(--black-color); border: none; padding: 18px 26px 18px 10px; outline: none; width: 100%; background: none;}
+.board_srch_input_wrap input[type=text] {font-weight: 400; font-size: 16px; color: var(--black-color); border: none; padding: 18px 26px 18px 10px; outline: none; width: 100%; background-color: #f8f8f8;}
 .board_srch_input_wrap [type=submit] {border: none; background-color: transparent; position: absolute; top: 50%; right: 10px; transform: translateY(-50%);}
 
 .board_contents {}
